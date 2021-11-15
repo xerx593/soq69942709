@@ -21,7 +21,7 @@ class ApplicationTests {
     }
     
     @Test
-    public void givenPersonEntitytoPersonWithExpression_whenMaps_thenCorrect() {
+    public void givenStateEntitytoStateWithExpression_whenMaps_thenCorrect() {
         State entity = new State();
         entity.setId(7);
         entity.setName("foo");
