@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class PropertyService {
 
-    @Value("application.version")
+    @Value("${application.version}")
     private String appVersion;
 }
